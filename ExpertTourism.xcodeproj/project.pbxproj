@@ -7,14 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		829047FE2ECC720300AEB566 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 829047FD2ECC720300AEB566 /* Alamofire */; };
 		82B45BF42EDA050C00DCF549 /* Favorite in Frameworks */ = {isa = PBXBuildFile; productRef = 82B45BF32EDA050C00DCF549 /* Favorite */; };
 		82B45BF72EDA054500DCF549 /* Home in Frameworks */ = {isa = PBXBuildFile; productRef = 82B45BF62EDA054500DCF549 /* Home */; };
 		82B45BFA2EDA057C00DCF549 /* Detail in Frameworks */ = {isa = PBXBuildFile; productRef = 82B45BF92EDA057C00DCF549 /* Detail */; };
 		82B45BFD2EDA059800DCF549 /* About in Frameworks */ = {isa = PBXBuildFile; productRef = 82B45BFC2EDA059800DCF549 /* About */; };
-		82D89E102ECD5EE600ED9BC8 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 82D89E0F2ECD5EE600ED9BC8 /* Swinject */; };
-		82D89E492ECD658700ED9BC8 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 82D89E482ECD658700ED9BC8 /* SDWebImageSwiftUI */; };
-		82D89E4C2ECD698E00ED9BC8 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 82D89E4B2ECD698E00ED9BC8 /* RealmSwift */; };
+		82C694602EDAAAD600F19AD0 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 82C6945F2EDAAAD600F19AD0 /* Swinject */; };
 		82F683412ED82FE50062D4D5 /* codemagic.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 82F683402ED82FDA0062D4D5 /* codemagic.yaml */; };
 /* End PBXBuildFile section */
 
@@ -37,10 +34,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82B45BFD2EDA059800DCF549 /* About in Frameworks */,
-				82D89E4C2ECD698E00ED9BC8 /* RealmSwift in Frameworks */,
-				82D89E492ECD658700ED9BC8 /* SDWebImageSwiftUI in Frameworks */,
-				829047FE2ECC720300AEB566 /* Alamofire in Frameworks */,
-				82D89E102ECD5EE600ED9BC8 /* Swinject in Frameworks */,
+				82C694602EDAAAD600F19AD0 /* Swinject in Frameworks */,
 				82B45BF42EDA050C00DCF549 /* Favorite in Frameworks */,
 				82B45BF72EDA054500DCF549 /* Home in Frameworks */,
 				82B45BFA2EDA057C00DCF549 /* Detail in Frameworks */,
@@ -87,14 +81,11 @@
 			);
 			name = ExpertTourism;
 			packageProductDependencies = (
-				829047FD2ECC720300AEB566 /* Alamofire */,
-				82D89E0F2ECD5EE600ED9BC8 /* Swinject */,
-				82D89E482ECD658700ED9BC8 /* SDWebImageSwiftUI */,
-				82D89E4B2ECD698E00ED9BC8 /* RealmSwift */,
 				82B45BF32EDA050C00DCF549 /* Favorite */,
 				82B45BF62EDA054500DCF549 /* Home */,
 				82B45BF92EDA057C00DCF549 /* Detail */,
 				82B45BFC2EDA059800DCF549 /* About */,
+				82C6945F2EDAAAD600F19AD0 /* Swinject */,
 			);
 			productName = ExpertTourism;
 			productReference = 827C4B392EC3140A00239548 /* ExpertTourism.app */;
@@ -125,15 +116,11 @@
 			mainGroup = 827C4B302EC3140A00239548;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				829047FC2ECC720300AEB566 /* XCRemoteSwiftPackageReference "Alamofire" */,
-				82D89E0E2ECD5EE600ED9BC8 /* XCRemoteSwiftPackageReference "Swinject" */,
-				82D89E472ECD658700ED9BC8 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
-				82D89E4A2ECD698E00ED9BC8 /* XCRemoteSwiftPackageReference "realm-swift" */,
 				82B45BF22EDA050C00DCF549 /* XCLocalSwiftPackageReference "Modules/Favorite" */,
 				82B45BF52EDA054500DCF549 /* XCLocalSwiftPackageReference "Modules/Home" */,
 				82B45BF82EDA057C00DCF549 /* XCLocalSwiftPackageReference "Modules/Detail" */,
 				82B45BFB2EDA059800DCF549 /* XCLocalSwiftPackageReference "Modules/About" */,
-				82B45BFE2EDA05D100DCF549 /* XCRemoteSwiftPackageReference "ExpertTourism-Core" */,
+				82C6945E2EDAAAD600F19AD0 /* XCRemoteSwiftPackageReference "Swinject" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 827C4B3A2EC3140A00239548 /* Products */;
@@ -383,23 +370,7 @@
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		829047FC2ECC720300AEB566 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.10.2;
-			};
-		};
-		82B45BFE2EDA05D100DCF549 /* XCRemoteSwiftPackageReference "ExpertTourism-Core" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/rijalmyd/ExpertTourism-Core.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-		82D89E0E2ECD5EE600ED9BC8 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+		82C6945E2EDAAAD600F19AD0 /* XCRemoteSwiftPackageReference "Swinject" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Swinject/Swinject";
 			requirement = {
@@ -407,30 +378,9 @@
 				minimumVersion = 2.10.0;
 			};
 		};
-		82D89E472ECD658700ED9BC8 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.1.4;
-			};
-		};
-		82D89E4A2ECD698E00ED9BC8 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/realm/realm-swift/";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		829047FD2ECC720300AEB566 /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 829047FC2ECC720300AEB566 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
 		82B45BF32EDA050C00DCF549 /* Favorite */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Favorite;
@@ -447,20 +397,10 @@
 			isa = XCSwiftPackageProductDependency;
 			productName = About;
 		};
-		82D89E0F2ECD5EE600ED9BC8 /* Swinject */ = {
+		82C6945F2EDAAAD600F19AD0 /* Swinject */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 82D89E0E2ECD5EE600ED9BC8 /* XCRemoteSwiftPackageReference "Swinject" */;
+			package = 82C6945E2EDAAAD600F19AD0 /* XCRemoteSwiftPackageReference "Swinject" */;
 			productName = Swinject;
-		};
-		82D89E482ECD658700ED9BC8 /* SDWebImageSwiftUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 82D89E472ECD658700ED9BC8 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
-			productName = SDWebImageSwiftUI;
-		};
-		82D89E4B2ECD698E00ED9BC8 /* RealmSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 82D89E4A2ECD698E00ED9BC8 /* XCRemoteSwiftPackageReference "realm-swift" */;
-			productName = RealmSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
